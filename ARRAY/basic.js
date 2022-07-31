@@ -59,3 +59,21 @@ console.log(fruits);
 var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 var citrus = fruits.slice(1, 3);
 console.log(citrus);
+
+//remove element of any index 
+array = [45,45,33,78,2,44]
+array.splice(2, 1); //here 2 is the index number .you have to give your index number here
+console.log(array);
+
+// remove specific element
+var array = [2, 5, 9];
+
+console.log(array);
+
+var index = array.indexOf(5);
+if (index > -1) { // only splice array when item is found
+  array.splice(index, 1); // 2nd parameter means remove one item only
+}
+
+// array = [2, 9]
+console.log(array); 
