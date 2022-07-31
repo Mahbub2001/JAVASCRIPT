@@ -55,8 +55,7 @@ fruits.splice(2, 1, "Lemon", "Kiwi");
 console.log(fruits);
 
 //The slice() method slices out a piece of an array into a new array.
-// The first parameter defines the position where new elements should be added (spliced in).
-// The second parameter defines how many elements should be removed.
-var fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.splice(1, 1);
-console.log(fruits);
+// The method then selects elements from the start argument, and up to (but not including) the end argument.
+var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+var citrus = fruits.slice(1, 3);
+console.log(citrus);
