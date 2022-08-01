@@ -82,6 +82,9 @@ console.log(fruits);
 fruits.reverse();
 console.log(fruits);
 
+
+
+
 // Array Sorting..
 //ascending
 var numbers = [234, 22, 34, 66, 2, 35, 423, 33, 99];
@@ -95,10 +98,17 @@ numbers.sort(function (a, b) {
 });
 console.log(numbers);
 
+
+
+
 //Finding highest value:
 var arr = [34, 66, 33, 22, 4, 6, 1, 345];
-var c = myArrayMax(arr);
-console.log(c);
-function myArrayMax(arr) {
-  return Math.max(arr);
-}
+console.log(Math.max.apply(null,arr));
+// OR,   console.log(Math.max(...arr));//this spread syntax
+//Finding lowest value:
+var arr = [34, 66, 33, 22, 4, 6, 1, 345];
+console.log(Math.min.apply(null,arr));
+// OR, console.log(Math.min(...arr));
+
+
+
