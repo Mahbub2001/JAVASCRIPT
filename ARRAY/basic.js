@@ -48,7 +48,7 @@ console.log(myChildren);
 
 // The splice() method adds new items to an array.
 // The first parameter (2) defines the position where new elements should be added (spliced in).
-// The second parameter (0) defines how many elements should be removed.
+// The second parameter (1) defines how many elements should be removed.
 // The rest of the parameters ("Lemon" , "Kiwi") define the new elements to be added.
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.splice(2, 1, "Lemon", "Kiwi");
@@ -67,13 +67,25 @@ console.log(array);
 
 // remove specific element
 var array = [2, 5, 9];
-
 console.log(array);
-
 var index = array.indexOf(5);
 if (index > -1) { // only splice array when item is found
   array.splice(index, 1); // 2nd parameter means remove one item only
 }
-
-// array = [2, 9]
 console.log(array); 
+
+// Array Sorting..This is only for string 
+var fruits = ["Mango", "Apple", "Pine", "Jackfruit"];
+fruits.sort();
+console.log(fruits);
+//reverse :
+fruits.reverse();
+console.log(fruits);
+
+// Array Sorting..
+var numbers = [234,22,34,66,2,35,423,33,99];
+numbers.sort(function(a , b){return a - b})
+console.log(numbers);
+// reverse order
+numbers.sort(function(a , b){return b - a })
+console.log(numbers);
