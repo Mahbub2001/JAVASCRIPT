@@ -100,7 +100,6 @@ console.log(numbers);
 
 
 
-
 //Finding highest value:
 var arr = [34, 66, 33, 22, 4, 6, 1, 345];
 console.log(Math.max.apply(null,arr));
@@ -111,4 +110,12 @@ console.log(Math.min.apply(null,arr));
 // OR, console.log(Math.min(...arr));
 
 
+//includes..this is a keyword for string ..that can find a substring is there or not
+var nam = "Mahfuz Ahmed is singing";
+console.log(nam.includes('hello'));
+console.log(nam.includes('Mahfuz'));
 
+
+//substring..
+ var nam1= "He is a good boy";
+console.log(nam1.substring(0,10));
