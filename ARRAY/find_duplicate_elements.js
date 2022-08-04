@@ -1,5 +1,3 @@
-
-
 function find_duplicate_in_array(array){
 const count = {}
 const result = []
