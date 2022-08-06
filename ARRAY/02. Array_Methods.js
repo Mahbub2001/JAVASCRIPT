@@ -58,3 +58,43 @@ const number = [45,66,33,88,22,3,5,6,233,773,22];
 const result = number.filter(number => number > 20);
 
 console.log(result);
+
+
+
+
+
+//---------------------------------------Method - 6------------------------------------------
+//Array.includes()
+const arr7 = [1, 2, 3];
+console.log(arr7.includes(2));
+const pets = ['cat', 'dog', 'bat'];
+console.log(pets.includes('cat'));
+console.log(pets.includes('at'));
+const arr8 = [34,55,677,2332,21];
+console.log(arr8.includes(55,1));//first is the value and second is the index
+
+
+
+
+//---------------------------------------Method - 7------------------------------------------
+//Array.indexOf()
+const arr9 = [56,345,223,345,545,23];
+console.log(arr9.indexOf(345));
+
+
+
+
+//---------------------------------------Method - 8------------------------------------------
+//Array.reverse()
+const arr10 = [45,77,22,88,11,99];
+console.log(arr10.reverse());
+
+
+
+
+//---------------------------------------Method -9------------------------------------------
+//Array.toString()
+const arr11 =[23,45,24,65,234,65,];
+console.log(arr11.toString());
+
+
