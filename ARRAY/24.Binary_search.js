@@ -23,3 +23,4 @@ const binary = (val,array) =>
 const values = [0,1,2,3,4,5,6,7,8,9,10];
 
 console.log(binary(7,values));
+console.log(binary(55,values));
