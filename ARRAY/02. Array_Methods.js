@@ -29,11 +29,12 @@ console.log(numbers);
 // copyWithin(target, start)
 // copyWithin(target, start, end)
 //It will return modified array
-const arr = ['a', 'b', 'c', 'd', 'e'];
+const ar1 = ['a', 'b', 'c', 'd', 'e'];
 // copy to index 0 the element at index 3
-console.log(arr.copyWithin(0, 3, 4));
+console.log(ar1.copyWithin(0, 3, 4));
+const ar2 = ['a', 'b', 'c', 'd', 'e'];
 // copy to index 1 all elements from index 3 to the end
-console.log(arr.copyWithin(1, 3));
+console.log(ar2.copyWithin(1, 3));
 
 
 
