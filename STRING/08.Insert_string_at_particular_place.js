@@ -13,3 +13,5 @@ let position = 18;
 console.log(insert(mainString));
 console.log(insert(mainString, insertString));
 console.log(insert(mainString,insertString,position));
+
+
