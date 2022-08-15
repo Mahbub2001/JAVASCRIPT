@@ -23,4 +23,11 @@ document.getElementById('input-btn').addEventListener("click",function(){
             event.target.parentNode.parentNode.style.display="none"
         });
     }
+    document.getElementById('removeAllBtn').addEventListener('click',function(){
+        mainContainer.innerHTML='';
+    })
+    // document.getElementById('removeAllBtn').addEventListener('click',function(){
+    //     document.querySelector('#content-container').innerHTML='';
+    // })
 });
+
