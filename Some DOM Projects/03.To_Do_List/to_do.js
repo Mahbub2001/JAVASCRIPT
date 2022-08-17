@@ -23,6 +23,7 @@ document.getElementById('input-btn').addEventListener("click",function(){
             event.target.parentNode.parentNode.style.display="none"
         });
     }
+    //for clear all
     document.getElementById('removeAllBtn').addEventListener('click',function(){
         mainContainer.innerHTML='';
     })
