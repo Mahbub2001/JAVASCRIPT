@@ -1,13 +1,17 @@
 
 document.getElementById('DepositBtn').addEventListener('click',function(){
     const depositAmount = amountTaker();
+    if (isNaN(depositAmount)) {
+        alert('Please provide valid number');
+        return ;
+    }
 
     const preMoney = document.getElementById('DepositTK');
     const preMoneyString = preMoney.innerText;
     const previousDepositAmount = parseFloat(preMoneyString);
 
     const plus = depositAmount + previousDepositAmount;
-    preMoney.innerText = plus;
+    preMoney.innerText = plus;//
 
     const totalAmount = bringTotalAmount();
     const plus2 = depositAmount + totalAmount;
@@ -16,6 +20,10 @@ document.getElementById('DepositBtn').addEventListener('click',function(){
 });
 document.getElementById('WithdrawBtn').addEventListener('click',function(){
     const WithdrawMoney = amountTaker();
+    if (isNaN(WithdrawMoney)) {
+        alert('Please provide valid number');
+        return ;
+    }
 
     const preDraw = document.getElementById('WithdrawTK');
     const preDrawString= preDraw.innerText;
