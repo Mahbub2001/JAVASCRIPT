@@ -19,15 +19,15 @@
             <div class="text-center uper-div">
                 <div class="child-upperDiv bg-info rounded-5 text-white fw-bold">
                 <h2> Deposit </h2>
-                <h2>$<span>00</span></h2>                    
+                <h2>$<span id="DepositTK">00</span></h2>                    
                 </div>
                 <div class="child-upperDiv bg-success rounded-5 text-white fw-bold">
                 <h2>Withdraw</h2>
-                <h2>$<span>00</span></h2>                    
+                <h2>$<span id="WithdrawTK">00</span></h2>                    
                 </div>
                 <div class="child-upperDiv bg-info rounded-5 text-white fw-bold">
                 <h2>Balance </h2>
-                <h2>$<span>00</span></h2>                    
+                <h2>$<span id="totalTK">1200</span></h2>                    
                 </div>
             </div>
 
@@ -37,9 +37,14 @@
             <div>
                 <h1 class="text-center">What do you want ?</h1>
                 <div class="d-flex justify-content-center mt-3 btn-bank">
-                    <button id="DepositBtn" class="btn1 me-4">Deposit</button>
-                    <button id="WithdrawBtn" class="btn1 me-4">Withdraw</button>
+                    <button id="DepositBtn" class="btn1">Deposit</button>
+                    <button id="WithdrawBtn" class="btn1">Withdraw</button>
                 </div>
+            </div>
+        </section>
+        <section>
+            <div class="mb-5">
+                <input size="20" class="mt-4 input text-center" type="" name="" id="amountInput" placeholder="Amount">
             </div>
         </section>
     </main>

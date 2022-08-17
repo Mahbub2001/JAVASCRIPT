@@ -36,6 +36,7 @@ section{
     color: darkslategray;
     font-weight: 900;
     border-radius: 5px;
+    margin-left: 1rem;
 }
 
 @media (max-width: 480px) {
