@@ -1,3 +1,12 @@
+document.getElementById('signInBtn').addEventListener('mouseover',function(){
+    document.getElementById('signInBtn').style.backgroundColor='green';
+    document.getElementById('signInBtn').style.color='white';
+})
+document.getElementById('signInBtn').addEventListener('mouseout',function(){
+    document.getElementById('signInBtn').style.backgroundColor='';
+    document.getElementById('signInBtn').style.color='';
+
+})
 
 document.getElementById('signInBtn').addEventListener('click',function(){
 
@@ -16,13 +25,4 @@ document.getElementById('signInBtn').addEventListener('click',function(){
      else{
          alert('Wrong Password or Username');
      }
-})
-document.getElementById('signInBtn').addEventListener('mouseover',function(){
-    document.getElementById('signInBtn').style.backgroundColor='green';
-    document.getElementById('signInBtn').style.color='white';
-})
-document.getElementById('signInBtn').addEventListener('mouseout',function(){
-    document.getElementById('signInBtn').style.backgroundColor='';
-    document.getElementById('signInBtn').style.color='';
-
 })

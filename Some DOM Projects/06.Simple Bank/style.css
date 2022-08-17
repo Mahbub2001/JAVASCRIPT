@@ -18,3 +18,58 @@ section{
 #signInBtn{
     background-color: white;
 }
+.uper-div{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.child-upperDiv{
+    padding: 2.5rem;
+}
+.btn1{
+    border: 0;
+    background-color: lightgreen;
+    padding:1rem 2rem;
+    color: darkslategray;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+    .uper-div{
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .btn-bank{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .btn1{
+        width:150px;
+    }
+}
+@media (max-width: 768px) {
+    .uper-div{
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+}
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 1200px) {
+
+}
