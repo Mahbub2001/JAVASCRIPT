@@ -8,6 +8,19 @@ section{
     max-width: 40rem;
     width: 100%;
     margin: auto;
+    z-index: 1;
+}
+#image {
+    background: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    transform: translateY(-3rem);
+    z-index: 0;
+}
+.bank-img{
+    transform: translateY(-4.5rem);
 }
 .input{
     border: 0;
