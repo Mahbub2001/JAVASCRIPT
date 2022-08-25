@@ -15,3 +15,5 @@ const products = [
 
 const cheap = products.find(product => product.price < 40000);
 console.log(cheap);
+
+//the difference of filter and find is . filter give all the possible answer bt find gives only the first possible result
